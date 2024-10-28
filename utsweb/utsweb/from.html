@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Karyawan</title>
+    <link rel="stylesheet" href="from.css">
+</head>
+<body>
+    <nav class="navbar">
+        <p class="navbar-title">FORMULIR AREI OUTDOOR GEAR</p>
+        <ul>
+            <li><a href="Landingpage.html" class="aktif">Home</a></li>
+            <li><a href="from.html" class="aktif">Form</a></li>
+            <li><a href="about.html" class="aktif">About</a></li>
+        </ul>
+    </nav>
+    
+
+    <div class="form-container" id="form">
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="file-upload">Unggah File:</label>
+            <input type="file" id="file-upload" name="file-upload" required>
+
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label>Jenis Kelamin:</label>
+            <div class="radio-group">
+                <input type="radio" id="laki-laki" name="jenis_kelamin" value="Laki-laki" required>
+                <label for="laki-laki">Laki-laki</label>
+                
+                <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+                <label for="perempuan">Perempuan</label>
+            </div>
+
+            <label for="tanggal">Tanggal:</label>
+            <input type="date" id="tanggal" name="tanggal" required>
+
+            <label for="jabatan">Jabatan:</label>
+            <select id="jabatan" name="jabatan" required>
+                <option value="Direktur">Direktur</option>
+                <option value="Manajer">Manajer</option>
+                <option value="Staf">Staf</option>
+            </select>
+
+            <input type="submit" value="Simpan">
+            <button type="reset">Batal</button>
+        </form>
+    </div>
+</body>
+</html>

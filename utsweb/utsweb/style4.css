@@ -1,0 +1,89 @@
+/* Mengatur tampilan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Latar belakang login */
+body {
+    background: url('background-login.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Kontainer login */
+.login-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2em;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Form login */
+.login-form h1 {
+    font-size: 2em;
+    color: #c20000;
+    margin-bottom: 0.5em;
+}
+
+.login-form p {
+    margin-bottom: 1.5em;
+    color: #555;
+}
+
+.input-group {
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.8em;
+    margin-top: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 0.8em;
+    background-color: #c20000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #a50000;
+}
+
+.login-footer {
+    margin-top: 1.5em;
+    font-size: 0.9em;
+}
+
+.login-footer a {
+    color: #c20000;
+    text-decoration: none;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
